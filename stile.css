@@ -35,15 +35,16 @@
     background-color: red;
     position: absolute;
     font-size: 12px;
-    bottom: 10%;
+    bottom: 15%;
     color: white;
+    left: 10.7%;
 }
 .descrizione{
     background-color: green;
     position: absolute;
     font-size: 12px;
-    bottom: 10%;
-    left: 17.8%;
+    bottom: 15%;
+    left: 18%;
     color: white;
 }
 .card:hover img.foto2{
@@ -53,7 +54,7 @@
     background-color: red;
     position: absolute;
     font-size: 12px;
-    bottom: 10%;
+    bottom: 15%;
     color: white;
     right: 82.6%;
 }
@@ -64,7 +65,7 @@
     background-color: red;
     position: absolute;
     font-size: 12px;
-    bottom: 10%;
+    bottom: 15%;
     color: white;
     right: 82.5%;
 }
@@ -81,6 +82,7 @@
     background-color: green;
     position: absolute;
     font-size: 12px;
-    bottom: 10%;
+    bottom: 15%;
     color: white;
+    right: 73.3%;
 }
