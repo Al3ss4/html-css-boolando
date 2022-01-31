@@ -53,7 +53,7 @@
     background-color: red;
     position: absolute;
     font-size: 12px;
-    bottom: 6.8%;
+    bottom: 10%;
     color: white;
     right: 82.6%;
 }
@@ -64,7 +64,23 @@
     background-color: red;
     position: absolute;
     font-size: 12px;
-    bottom: 7%;
+    bottom: 10%;
     color: white;
     right: 82.5%;
+}
+.card:hover img.foto4{
+    content: url("img/4b.webp");
+}
+.card:hover img.foto5{
+    content: url("img/5b.webp");
+}
+.card:hover img.foto6{
+    content: url("img/6b.webp");
+}
+.descrizione1{
+    background-color: green;
+    position: absolute;
+    font-size: 12px;
+    bottom: 10%;
+    color: white;
 }
