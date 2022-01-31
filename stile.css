@@ -3,3 +3,68 @@
     padding: 0px;
     margin: 0px;
 }
+.container{
+    width: 100%;
+    padding: 10% 20%;
+}
+.card{
+    width: calc(100% / 3);
+    position: relative;
+    margin-top: 50px;
+    padding-left: 40px;
+    float: left;
+}
+.card img{
+    width: 100%;
+}
+.heart{
+    position: absolute;
+    top: 10px;
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    left: 95.3%;
+}
+.card:hover .heart{
+    color: red;
+}
+.card:hover img{
+    content:url("img/1b.webp");
+}
+.sconto{
+    background-color: red;
+    position: absolute;
+    font-size: 12px;
+    bottom: 10%;
+    color: white;
+}
+.descrizione{
+    background-color: green;
+    position: absolute;
+    font-size: 12px;
+    bottom: 10%;
+    left: 17.8%;
+    color: white;
+}
+.card:hover img.foto2{
+    content: url("img/2b.webp");
+}
+.sconto2{
+    background-color: red;
+    position: absolute;
+    font-size: 12px;
+    bottom: 6.8%;
+    color: white;
+    right: 82.6%;
+}
+.card:hover img.foto3{
+    content: url("img/3b.webp");
+}
+.sconto3{
+    background-color: red;
+    position: absolute;
+    font-size: 12px;
+    bottom: 7%;
+    color: white;
+    right: 82.5%;
+}
