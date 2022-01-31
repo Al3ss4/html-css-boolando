@@ -13,6 +13,10 @@
     margin-top: 50px;
     padding-left: 40px;
     float: left;
+    margin-bottom: 0px;
+}
+.card-top{
+    position: relative;
 }
 .card img{
     width: 100%;
@@ -35,17 +39,16 @@
     background-color: red;
     position: absolute;
     font-size: 12px;
-    bottom: 15%;
+    bottom: 10%;
     color: white;
-    left: 10.7%;
-    display: inline-block;
+    left: 0%;
 }
 .descrizione{
     background-color: green;
     position: absolute;
     font-size: 12px;
-    bottom: 15%;
-    left: 18%;
+    bottom: 10%;
+    left: 9%;
     color: white;
 }
 .card:hover img.foto2{
@@ -55,9 +58,9 @@
     background-color: red;
     position: absolute;
     font-size: 12px;
-    bottom: 15%;
+    bottom: 10%;
     color: white;
-    right: 82.6%;
+    left: 0%;
 }
 .card:hover img.foto3{
     content: url("img/3b.webp");
@@ -66,9 +69,9 @@
     background-color: red;
     position: absolute;
     font-size: 12px;
-    bottom: 15%;
+    bottom: 10%;
     color: white;
-    right: 82.5%;
+    left: 0%;
 }
 .card:hover img.foto4{
     content: url("img/4b.webp");
@@ -83,9 +86,9 @@
     background-color: green;
     position: absolute;
     font-size: 12px;
-    bottom: 15%;
+    bottom: 10%;
     color: white;
-    right: 73.3%;
+    right: 82.3%;
 }
 .marca{
     font-size: 10px;
